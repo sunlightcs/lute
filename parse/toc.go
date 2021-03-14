@@ -12,9 +12,9 @@ package parse
 
 import (
 	"bytes"
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/util"
 )
 
 func (context *Context) parseToC(paragraph *ast.Node) *ast.Node {

@@ -1,4 +1,4 @@
-module github.com/88250/lute
+module github.com/sunlightcs/lute
 
 go 1.12
 

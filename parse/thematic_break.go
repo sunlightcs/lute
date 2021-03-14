@@ -11,9 +11,9 @@
 package parse
 
 import (
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/util"
 )
 
 // 判断分隔线（--- ***）是否开始。

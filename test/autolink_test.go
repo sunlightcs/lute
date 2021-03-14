@@ -13,7 +13,7 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute"
+	"github.com/sunlightcs/lute"
 )
 
 var autoLinkTests = []parseTest{
@@ -34,7 +34,7 @@ func TestAutoLink(t *testing.T) {
 	luteEngine := lute.New()
 	luteEngine.SetAutoSpace(true)
 	for _, test := range autoLinkTests {
-		result:= luteEngine.MarkdownStr(test.name, test.from)
+		result := luteEngine.MarkdownStr(test.name, test.from)
 		if test.to != result {
 			t.Fatalf("test case [%s] failed\nexpected\n\t%q\ngot\n\t%q\noriginal html\n\t%q", test.name, test.to, result, test.from)
 		}

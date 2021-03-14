@@ -12,12 +12,12 @@ package lute
 
 import (
 	"bytes"
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/html/atom"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/html"
+	"github.com/sunlightcs/lute/html/atom"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/render"
+	"github.com/sunlightcs/lute/util"
 	"strings"
 	"unicode"
 )
@@ -110,7 +110,7 @@ func (lute *Lute) genASTByDOM(n *html.Node, tree *parse.Tree) {
 
 		node.Tokens = bytes.ReplaceAll(node.Tokens, []byte{194, 160}, []byte{' '}) // 将 &nbsp; 转换为空格
 		if nil != n.Parent && atom.Span == n.Parent.DataAtom && ("" != lute.domAttrValue(n.Parent, "class")) {
-			node.Tokens = []byte("**" + util.BytesToStr(node.Tokens) + "**" )
+			node.Tokens = []byte("**" + util.BytesToStr(node.Tokens) + "**")
 		}
 		tree.Context.Tip.AppendChild(node)
 	case atom.P, atom.Div, atom.Section:

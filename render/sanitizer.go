@@ -15,8 +15,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/html"
+	"github.com/sunlightcs/lute/util"
 )
 
 // 没有实现可扩展的策略，仅过滤不安全的标签和属性。

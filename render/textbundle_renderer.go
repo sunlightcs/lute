@@ -11,13 +11,13 @@
 package render
 
 import (
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/util"
 	"strings"
 )
 
-// TextBundleRenderer 描述了 TextBundle 渲染器。https://github.com/88250/lute/issues/77
+// TextBundleRenderer 描述了 TextBundle 渲染器。https://github.com/sunlightcs/lute/issues/77
 //
 // 继承 FormatRenderer，覆写链接地址渲染函数 renderLinkDest，如果 URL 在指定的链接前缀列表中，则将其替换为 assets/xxx，比如对于 Markdown 原文：
 //

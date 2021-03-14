@@ -12,16 +12,16 @@ package render
 
 import (
 	"bytes"
-	"github.com/88250/lute/html"
+	"github.com/sunlightcs/lute/html"
 	"strconv"
 	"strings"
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/util"
 )
 
 // RendererFunc 描述了渲染器函数签名。
@@ -43,7 +43,7 @@ type Options struct {
 	// AutoSpace 设置是否对普通文本中的中西文间自动插入空格。
 	// https://github.com/sparanoid/chinese-copywriting-guidelines
 	AutoSpace bool
-	// RenderListStyle 设置在渲染 OL、UL 时是否添加 data-style 属性 https://github.com/88250/lute/issues/48
+	// RenderListStyle 设置在渲染 OL、UL 时是否添加 data-style 属性 https://github.com/sunlightcs/lute/issues/48
 	RenderListStyle bool
 	// CodeSyntaxHighlight 设置是否对代码块进行语法高亮。
 	CodeSyntaxHighlight bool
@@ -66,11 +66,11 @@ type Options struct {
 	// KramdownSpanIAL 设置是否打开 kramdown 行级内联属性列表支持。
 	KramdownSpanIAL bool
 	// ImageLazyLoading 设置图片懒加载时使用的图片路径，配置该字段后将启用图片懒加载。
-	// 图片 src 的值会复制给新属性 data-src，然后使用该参数值作为 src 的值 https://github.com/88250/lute/issues/55
+	// 图片 src 的值会复制给新属性 data-src，然后使用该参数值作为 src 的值 https://github.com/sunlightcs/lute/issues/55
 	ImageLazyLoading string
 	// ChineseParagraphBeginningSpace 设置是否使用传统中文排版“段落开头空两格”。
 	ChineseParagraphBeginningSpace bool
-	// Sanitize 设置是否启用 XSS 安全过滤 https://github.com/88250/lute/issues/51
+	// Sanitize 设置是否启用 XSS 安全过滤 https://github.com/sunlightcs/lute/issues/51
 	Sanitize bool
 	// FixTermTypo 设置是否对普通文本中出现的术语进行修正。
 	// https://github.com/sparanoid/chinese-copywriting-guidelines

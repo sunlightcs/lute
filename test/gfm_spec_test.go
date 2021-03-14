@@ -11,8 +11,8 @@
 package test
 
 import (
-	"github.com/88250/lute"
-	"github.com/88250/lute/parse"
+	"github.com/sunlightcs/lute"
+	"github.com/sunlightcs/lute/parse"
 	"testing"
 )
 

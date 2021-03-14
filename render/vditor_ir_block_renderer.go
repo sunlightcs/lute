@@ -16,13 +16,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/88250/lute/html/atom"
+	"github.com/sunlightcs/lute/html/atom"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/html"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/util"
 )
 
 // VditorIRBlockRenderer 描述了 Vditor Instant-Rendering Block DOM 渲染器。

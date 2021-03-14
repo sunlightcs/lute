@@ -15,14 +15,14 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
-	"github.com/88250/lute/util"
 	"github.com/gopherjs/gopherjs/js"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/render"
+	"github.com/sunlightcs/lute/util"
 )
 
-const Version = "1.7.2"
+const Version = "1.7.3"
 
 // Lute 描述了 Lute 引擎的顶层使用入口。
 type Lute struct {

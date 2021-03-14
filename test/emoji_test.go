@@ -13,12 +13,12 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute"
+	"github.com/sunlightcs/lute"
 )
 
 var emojiTests = []parseTest{
 
-	// 链接文本节点内 Emoji 的解析 https://github.com/88250/lute/issues/76
+	// 链接文本节点内 Emoji 的解析 https://github.com/sunlightcs/lute/issues/76
 	{"21", "[foo *:star:*](bar)", "<p><a href=\"bar\">foo <em>⭐️</em></a></p>\n"},
 	{"20", "[foo :octocat:](bar)", "<p><a href=\"bar\">foo <img alt=\"octocat\" class=\"emoji\" src=\"https://cdn.jsdelivr.net/npm/vditor/dist/images/emoji/octocat.png\" title=\"octocat\" /></a></p>\n"},
 	{"19", "[foo :star:](bar)", "<p><a href=\"bar\">foo ⭐️</a></p>\n"},

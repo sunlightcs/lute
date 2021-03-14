@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/88250/lute"
+	"github.com/sunlightcs/lute"
 )
 
 func TestCodeSyntaxHighlightIssue17(t *testing.T) {

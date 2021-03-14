@@ -13,8 +13,8 @@ package parse
 import (
 	"bytes"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/lex"
 )
 
 func (context *Context) parseTable(paragraph *ast.Node) (retParagraph, retTable *ast.Node) {

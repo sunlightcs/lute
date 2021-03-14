@@ -11,8 +11,8 @@
 package html
 
 import (
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/util"
 	"strings"
 	"unicode/utf8"
 )

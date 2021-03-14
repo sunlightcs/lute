@@ -13,9 +13,9 @@ package lute
 import (
 	"strings"
 
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/render"
+	"github.com/sunlightcs/lute/util"
 )
 
 // SpinVditorSVDOM 自旋 Vditor Split-View DOM，用于分屏预览模式下的编辑。

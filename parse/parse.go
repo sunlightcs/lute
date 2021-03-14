@@ -11,8 +11,8 @@
 package parse
 
 import (
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/lex"
 )
 
 // Zwsp 零宽空格。
@@ -271,7 +271,7 @@ type Options struct {
 	VditorSV bool
 	// InlineMathAllowDigitAfterOpenMarker 设置内联数学公式是否允许起始 $ 后紧跟数字 https://github.com/b3log/lute/issues/38
 	InlineMathAllowDigitAfterOpenMarker bool
-	// Setext 设置是否解析 Setext 标题 https://github.com/88250/lute/issues/50
+	// Setext 设置是否解析 Setext 标题 https://github.com/sunlightcs/lute/issues/50
 	Setext bool
 	// YamlFrontMatter 设置是否开启 YAML Front Matter 支持。
 	YamlFrontMatter bool
@@ -287,7 +287,7 @@ type Options struct {
 	Tag bool
 	// ImgPathAllowSpace 设置是否支持图片路径带空格。
 	ImgPathAllowSpace bool
-	// SuperBlock 设置是否支持超级块。 https://github.com/88250/lute/issues/111
+	// SuperBlock 设置是否支持超级块。 https://github.com/sunlightcs/lute/issues/111
 	SuperBlock bool
 	// Sup 设置是否打开 ^上标^ 支持。
 	Sup bool

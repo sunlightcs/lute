@@ -14,8 +14,8 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/util"
 )
 
 // FixTermTypo 修正 tokens 中出现的术语拼写问题。

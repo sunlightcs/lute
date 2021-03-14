@@ -13,7 +13,7 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute"
+	"github.com/sunlightcs/lute"
 )
 
 func TestIsValidLinkDest(t *testing.T) {

@@ -13,10 +13,10 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute"
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/util"
 )
 
 var inlineTests = []parseTest{

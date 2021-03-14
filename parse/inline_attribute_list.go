@@ -12,8 +12,8 @@ package parse
 
 import (
 	"bytes"
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/util"
 	"strings"
 )
 

@@ -13,10 +13,10 @@ package parse
 import (
 	"bytes"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/html"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/util"
 )
 
 // 判断围栏代码块（```）是否开始。

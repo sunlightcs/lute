@@ -13,10 +13,10 @@ package render
 import (
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"github.com/sunlightcs/lute/ast"
+	"github.com/sunlightcs/lute/lex"
+	"github.com/sunlightcs/lute/parse"
+	"github.com/sunlightcs/lute/util"
 )
 
 // EChartsJSONRenderer 描述了 ECharts JSON 渲染器。
