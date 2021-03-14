@@ -375,9 +375,9 @@ func (r *BaseRenderer) renderToC(node *ast.Node, entering bool) ast.WalkStatus {
 
 func (r *BaseRenderer) renderToC0(heading *Heading) {
 	r.WriteString("<li>")
-	r.Tag("span", [][]string{{"data-target-id", heading.ID}}, false)
-	r.WriteString(heading.Content)
-	r.Tag("/span", nil, false)
+	r.Tag("a", [][]string{{"href", heading.ID}}, false)
+	r.WriteString("#" + heading.Content)
+	r.Tag("/a", nil, false)
 	if 0 < len(heading.Children) {
 		r.WriteString("<ul>")
 		for _, child := range heading.Children {
